@@ -1,0 +1,40 @@
+# =========================
+# FRONTEND (Next.js)
+# =========================
+frontend/node_modules
+frontend/.next
+frontend/.turbo
+frontend/.vercel
+frontend/out
+frontend/.env*
+
+# =========================
+# BACKEND (FastAPI / Python)
+# =========================
+backend/venv
+backend/__pycache__
+backend/.pytest_cache
+backend/.mypy_cache
+backend/.env*
+
+# Python compiled
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# IDE
+# =========================
+.vscode
+.idea
